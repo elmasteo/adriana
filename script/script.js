@@ -58,6 +58,7 @@ function createHeart() {
 // Crear corazones de forma continua
 setInterval(createHeart, 200);
 
+/*
 document.addEventListener('DOMContentLoaded', function () {
     // Verifica si Driver.js está cargado
     if (typeof window.driver === 'undefined' || typeof window.driver.js === 'undefined') {
@@ -117,4 +118,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Marcar que el usuario ha visto el tour
     localStorage.setItem('tourVisto', 'true');
-});
+});*/
